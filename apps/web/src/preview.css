@@ -1,0 +1,75 @@
+:root {
+  --bg: #0f1419;
+  --fg: #e8eef4;
+  --muted: #9aa8b5;
+  --accent: #3d8bfd;
+  --banner: #1a2330;
+  --warn: #c9a227;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: var(--fg);
+  background: radial-gradient(ellipse at top, #1a2838 0%, var(--bg) 55%);
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+}
+
+.brand {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.75rem;
+}
+
+.preview-banner {
+  background: var(--banner);
+  border-left: 4px solid var(--warn);
+  padding: 0.65rem 0.85rem;
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.platform-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.platform-nav a {
+  color: var(--accent);
+}
+
+section {
+  margin-bottom: 2.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #243040;
+}
+
+h1 {
+  font-size: 1.35rem;
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0.35rem;
+}
+
+.disclosure {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
